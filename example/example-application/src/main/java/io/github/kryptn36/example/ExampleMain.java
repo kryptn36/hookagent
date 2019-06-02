@@ -1,4 +1,4 @@
-package de.kryptn36.example;
+package io.github.kryptn36.example;
 
 public class ExampleMain {
 

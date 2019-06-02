@@ -1,9 +1,9 @@
 package facades;
 
-import de.kryptn36.hookagent.annotations.ClassFacade;
-import de.kryptn36.hookagent.annotations.Getter;
-import de.kryptn36.hookagent.annotations.Method;
-import de.kryptn36.hookagent.annotations.Setter;
+import io.github.kryptn36.hookagent.annotations.ClassFacade;
+import io.github.kryptn36.hookagent.annotations.Getter;
+import io.github.kryptn36.hookagent.annotations.Method;
+import io.github.kryptn36.hookagent.annotations.Setter;
 
 @ClassFacade("de.kryptn36.example.Human")
 public interface HumanFacade {

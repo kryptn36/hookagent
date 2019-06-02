@@ -1,4 +1,4 @@
-package de.kryptn36.hookagent.annotations;
+package io.github.kryptn36.hookagent.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface ClassFacade {
+public @interface ClassMixin {
 
   String value();
 

@@ -38,6 +38,11 @@
       <artifactId>log4j-core</artifactId>
       <version>2.11.2</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.9</version>
+    </dependency>
 
     <dependency>
       <groupId>junit</groupId>
@@ -73,8 +78,8 @@
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                   <manifestEntries>
-                    <Premain-Class>de.kryptn36.hookagent.HookAgentBootstrap</Premain-Class>
-                    <Agent-Class>de.kryptn36.hookagent.HookAgentBootstrap</Agent-Class>
+                    <Premain-Class>io.github.kryptn36.hookagent.HookAgentMain</Premain-Class>
+                    <Agent-Class>io.github.kryptn36.hookagent.HookAgentMain</Agent-Class>
                     <Can-Redefine-Classes>true</Can-Redefine-Classes>
                     <Can-Retransform-Classes>true</Can-Retransform-Classes>
                   </manifestEntries>

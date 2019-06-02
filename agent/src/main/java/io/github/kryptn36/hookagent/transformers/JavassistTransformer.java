@@ -1,4 +1,4 @@
-package de.kryptn36.hookagent;
+package io.github.kryptn36.hookagent.transformers;
 
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;

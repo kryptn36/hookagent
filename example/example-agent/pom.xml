@@ -16,6 +16,7 @@
       <groupId>de.kryptn36.hookagent</groupId>
       <artifactId>agent</artifactId>
       <version>0.1</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 
