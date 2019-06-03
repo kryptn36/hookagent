@@ -1,7 +1,10 @@
 package io.github.kryptn36.hookagent.extension;
 
-public interface Extension {
+public abstract class Extension {
 
-  void init(ExtensionManager extensionManager);
+  private ExtensionPipeline extensionPipeline = new ExtensionPipeline();
+
+  public abstract void init(ExtensionManager extensionManager);
+
 
 }
