@@ -1,25 +1,16 @@
-package io.github.kryptn36.hookagent.extension;
+package io.github.kryptn36.hookagent.extensions;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
-import java.util.Enumeration;
-import java.util.List;
 import java.util.ServiceLoader;
-import java.util.jar.JarEntry;
-import java.util.jar.JarFile;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
-public class ExtensionLoader {
+class ExtensionLoader {
 
   private ExtensionManager extensionManager;
   private Path extensionsPath;

@@ -5,7 +5,9 @@
   <artifactId>parent</artifactId>
   <version>0.1</version>
   <modules>
+    <module>agent-api</module>
     <module>agent</module>
+    <module>transformer-javassist</module>
     <module>example</module>
   </modules>
   <packaging>pom</packaging>

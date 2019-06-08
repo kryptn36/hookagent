@@ -1,6 +1,7 @@
 package io.github.kryptn36.hookagent;
 
-import io.github.kryptn36.hookagent.extension.ExtensionManager;
+import io.github.krpytn36.hookagent.javassist.JavassistTransformer;
+import io.github.kryptn36.hookagent.extensions.ExtensionManager;
 import java.lang.instrument.Instrumentation;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -21,7 +22,7 @@ public class HookAgentMain {
       log.error(e);
     }
 
-    instrumentation.addTransformer(new HookAgentClassFileTransformer());
+    instrumentation.addTransformer(new JavassistTransformer());
   }
 
 }

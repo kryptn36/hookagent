@@ -1,10 +1,6 @@
-package io.github.kryptn36.hookagent.extension;
+package io.github.kryptn36.hookagent.extensions;
 
-import io.github.kryptn36.hookagent.annotations.ClassFacade;
-import io.github.kryptn36.hookagent.annotations.ClassMixin;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.List;
 import org.apache.commons.lang3.Validate;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
